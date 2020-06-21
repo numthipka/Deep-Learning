@@ -72,8 +72,8 @@ class CustomConfig(Config):
     NUM_CLASSES = 1 + 1  # Background + toy
 
     # Number of training steps per epoch
-    STEPS_PER_EPOCH = 100
-
+    # STEPS_PER_EPOCH = 100 -- original from priya code so I modifed to 10 epoch
+    STEPS_PER_EPOCH = 10
     # Skip detections with < 90% confidence
     DETECTION_MIN_CONFIDENCE = 0.9
 
